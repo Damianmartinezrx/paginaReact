@@ -3,7 +3,7 @@ import { PhoneCall } from 'lucide-react';
 
 export default function WhatsAppButton() {
   const sendWhatsApp = () => {
-    const phoneNumber = '1167938304';
+    const phoneNumber = '541167938304';
     const message = 'Hola Damian, me interesa conocer más sobre tus servicios de desarrollo backend y testing QA.';
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     window.open(url, '_blank');
