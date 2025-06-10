@@ -49,8 +49,8 @@ export default function Hero({ theme }: HeroProps) {
 
   const downloadCV = () => {
     const link = document.createElement('a');
-    link.href = 'cv.pdf';
-    link.download = 'Damian_CV.pdf';
+    link.href = 'Damian_CV.pdf';
+    link.download = 'Damian Martinez Dev.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

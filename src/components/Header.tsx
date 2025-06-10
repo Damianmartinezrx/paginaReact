@@ -8,7 +8,7 @@ interface NavItem {
 
 const navItems: NavItem[] = [
   { href: '#home', icon: <Home className="w-4 h-4" />, label: 'Home' },
-  { href: 'cv.pdf', icon: <FileDown className="w-4 h-4" />, label: 'CV' },
+  { href: 'Damian_CV.pdf', icon: <FileDown className="w-4 h-4" />, label: 'CV', target: '_blank' },
   { href: '#education', icon: <GraduationCap className="w-4 h-4" />, label: 'Educación' },
   { href: '#projects', icon: <GitBranch className="w-4 h-4" />, label: 'Proyectos' },
   { href: '#contact', icon: <Mail className="w-4 h-4" />, label: 'Contacto' }
@@ -32,17 +32,20 @@ export default function Header({ theme, onThemeToggle }: HeaderProps) {
 
         <nav className="flex items-center gap-6">
           {navItems.map((item) => (
-            <a
-              key={item.label}
-              href={item.href}
-              className={`flex items-center gap-2 px-3 py-2 rounded-md text-sm font-medium transition-all
-                ${theme === 'dark' ? 'text-gray-300 hover:text-blue-500' : 'text-gray-600 hover:text-blue-600'}
-                hover:bg-blue-500/10`}
-            >
-              {item.icon}
-              <span className="hidden sm:inline">{item.label}</span>
-            </a>
-          ))}
+  <a
+    key={item.label}
+    href={item.href}
+    target={item.href.endsWith('.pdf') ? '_blank' : undefined}
+    rel={item.href.endsWith('.pdf') ? 'noopener noreferrer' : undefined}
+    className={`flex items-center gap-2 px-3 py-2 rounded-md text-sm font-medium transition-all
+      ${theme === 'dark' ? 'text-gray-300 hover:text-blue-500' : 'text-gray-600 hover:text-blue-600'}
+      hover:bg-blue-500/10`}
+  >
+    {item.icon}
+    <span className="hidden sm:inline">{item.label}</span>
+  </a>
+))}
+
         </nav>
 
         <button
