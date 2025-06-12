@@ -17,7 +17,9 @@ export default function Footer({ theme }: FooterProps) {
         
         <div className="flex gap-4">
           <a
-            href="#"
+            href="https://www.linkedin.com/in/damianmartinezrx/"
+            target="_blank"
+            rel="noopener noreferrer"
             className={`w-10 h-10 flex items-center justify-center rounded-full transition-all
               ${theme === 'dark' ? 'bg-gray-800/80 text-gray-400 hover:text-blue-500' : 'bg-gray-200/80 text-gray-600 hover:text-blue-600'}
               hover:transform hover:-translate-y-1`}
@@ -25,7 +27,9 @@ export default function Footer({ theme }: FooterProps) {
             <Linkedin className="w-5 h-5" />
           </a>
           <a
-            href="#"
+            href="https://github.com/Damianmartinezrx?tab=repositories"
+            target="_blank"
+            rel="noopener noreferrer"
             className={`w-10 h-10 flex items-center justify-center rounded-full transition-all
               ${theme === 'dark' ? 'bg-gray-800/80 text-gray-400 hover:text-blue-500' : 'bg-gray-200/80 text-gray-600 hover:text-blue-600'}
               hover:transform hover:-translate-y-1`}

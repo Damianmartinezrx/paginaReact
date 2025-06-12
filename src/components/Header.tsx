@@ -4,6 +4,7 @@ interface NavItem {
   href: string;
   icon: JSX.Element;
   label: string;
+  target?: string;
 }
 
 const navItems: NavItem[] = [
