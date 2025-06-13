@@ -1,20 +1,23 @@
-// server.js
-const express = require('express');
-const path = require('path');
+import express from 'express';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
 const app = express();
-const port = process.env.PORT || 3000;
 
-// Carpeta de salida de Vite
-const distPath = path.join(__dirname, 'dist');
+const port = process.env.PORT || 8080;
 
-// Servir archivos estáticos
-app.use(express.static(distPath));
+// Para usar __dirname en ESModules
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
-// Fallback para SPA: redirige todas las rutas a index.html
+// Servir archivos estáticos generados por vite build
+app.use(express.static(path.join(__dirname, 'dist')));
+
+// Para cualquier ruta, enviar index.html para que React maneje el routing SPA
 app.get('*', (req, res) => {
-  res.sendFile(path.join(distPath, 'index.html'));
+  res.sendFile(path.join(__dirname, 'dist', 'index.html'));
 });
 
 app.listen(port, () => {
-  console.log(`Servidor funcionando en http://localhost:${port}`);
+  console.log(`Servidor corriendo en puerto ${port}`);
 });
