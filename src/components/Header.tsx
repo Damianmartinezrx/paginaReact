@@ -8,7 +8,7 @@ interface NavItem {
 }
 
 const navItems: NavItem[] = [
-  { href: '#home', icon: <Home className="w-4 h-4" />, label: 'Home' },
+  { href: '/', icon: <Home className="w-4 h-4" />, label: 'Home' },
   { href: 'Damian_CV.pdf', icon: <FileDown className="w-4 h-4" />, label: 'CV', target: '_blank' },
   { href: '#education', icon: <GraduationCap className="w-4 h-4" />, label: 'Educación' },
   { href: '#projects', icon: <GitBranch className="w-4 h-4" />, label: 'Proyectos' },
