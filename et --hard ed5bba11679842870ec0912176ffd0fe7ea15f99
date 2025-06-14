@@ -1,0 +1,166 @@
+[33mcommit 5c4d0fe2014f5433a4132eb3699531b038bc68e5[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Damian <damianmartinezrx@gmail.com>
+Date:   Sat Jun 14 11:50:42 2025 -0300
+
+    codigo corregido del home
+
+[33mcommit b289c86629fbdc46d494fb0fe1dde81e5baf28fb[m
+Author: Damian <damianmartinezrx@gmail.com>
+Date:   Fri Jun 13 14:10:11 2025 -0300
+
+    modificacion server.js para funcionar sin errores en railway
+
+[33mcommit aff03d769db6aafb78bba31354ee5145524c5b05[m
+Author: Damian <damianmartinezrx@gmail.com>
+Date:   Fri Jun 13 14:02:30 2025 -0300
+
+    Nueva configuracion de json para funcionar en railway
+
+[33mcommit 0e5882ed866a604dd1aaf707ec25dacc9f626e01[m
+Author: Damian <damianmartinezrx@gmail.com>
+Date:   Fri Jun 13 13:26:00 2025 -0300
+
+    configuracion Json para rail...
+
+[33mcommit ed5bba11679842870ec0912176ffd0fe7ea15f99[m
+Author: Damian <damianmartinezrx@gmail.com>
+Date:   Fri Jun 13 12:26:36 2025 -0300
+
+    2 intento de solucionar boton de home
+
+[33mcommit e757ab7b17601efe642eee23a7f695a804ef2eb6[m
+Author: Damian <damianmartinezrx@gmail.com>
+Date:   Fri Jun 13 11:41:45 2025 -0300
+
+    Arreglo del boton home en la pagina react
+
+[33mcommit 6fb6d0f2920f8a40266a0d0b1b419969b187465c[m
+Author: Damian <damianmartinezrx@gmail.com>
+Date:   Thu Jun 12 14:25:34 2025 -0300
+
+    Botones de linkedin y github funcionando y actualizados a la paginas
+
+[33mcommit 7c950532cdaf397a80af8f16eeb21e936a21b8c8[m
+Author: Damian <damianmartinezrx@gmail.com>
+Date:   Tue Jun 10 12:50:17 2025 -0300
+
+    modificacion de boton nav CV para pestaña nueva
+
+[33mcommit 75327b415440a5e2909845a5f2c7dc1614650f0c[m
+Author: Damian <damianmartinezrx@gmail.com>
+Date:   Tue Jun 10 10:49:30 2025 -0300
+
+    modificacion numero de whassat, boton del mismo no funciona
+
+[33mcommit f79978194142d8ef7f8c0bc8a15a81f91ab8c18b[m
+Author: Damian <damianmartinezrx@gmail.com>
+Date:   Mon Jun 9 15:48:36 2025 -0300
+
+    Agregado archivo _redirects para redirección de rutas SPA
+
+[33mcommit 61c1c8397d7ba924b0300c966ca0871700561bc0[m
+Author: Damian <damianmartinezrx@gmail.com>
+Date:   Mon Jun 9 15:19:20 2025 -0300
+
+    nuevo inteto de rail
+
+[33mcommit dfb13583ef465c79d8dd09f504b1ef4b5e539e88[m
+Author: Damian <damianmartinezrx@gmail.com>
+Date:   Mon Jun 9 14:58:48 2025 -0300
+
+    pagina para usarlo en rail
+
+[33mcommit 5644ca9da7e94778f29613b35a5e6928910855b3[m
+Author: Damian <damianmartinezrx@gmail.com>
+Date:   Mon Jun 9 11:47:10 2025 -0300
+
+    Subiendo proyecto React
+
+[33mcommit 5595aa11b3c4b340bb3324665ae442dcbe1b27b7[m
+Author: Damian <damianmartinezrx@gmail.com>
+Date:   Mon Jun 9 11:44:01 2025 -0300
+
+    first commit
+[33mcommit 5c4d0fe2014f5433a4132eb3699531b038bc68e5[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Damian <damianmartinezrx@gmail.com>
+Date:   Sat Jun 14 11:50:42 2025 -0300
+
+    codigo corregido del home
+
+[33mcommit b289c86629fbdc46d494fb0fe1dde81e5baf28fb[m
+Author: Damian <damianmartinezrx@gmail.com>
+Date:   Fri Jun 13 14:10:11 2025 -0300
+
+    modificacion server.js para funcionar sin errores en railway
+
+[33mcommit aff03d769db6aafb78bba31354ee5145524c5b05[m
+Author: Damian <damianmartinezrx@gmail.com>
+Date:   Fri Jun 13 14:02:30 2025 -0300
+
+    Nueva configuracion de json para funcionar en railway
+
+[33mcommit 0e5882ed866a604dd1aaf707ec25dacc9f626e01[m
+Author: Damian <damianmartinezrx@gmail.com>
+Date:   Fri Jun 13 13:26:00 2025 -0300
+
+    configuracion Json para rail...
+
+[33mcommit ed5bba11679842870ec0912176ffd0fe7ea15f99[m
+Author: Damian <damianmartinezrx@gmail.com>
+Date:   Fri Jun 13 12:26:36 2025 -0300
+
+    2 intento de solucionar boton de home
+
+[33mcommit e757ab7b17601efe642eee23a7f695a804ef2eb6[m
+Author: Damian <damianmartinezrx@gmail.com>
+Date:   Fri Jun 13 11:41:45 2025 -0300
+
+    Arreglo del boton home en la pagina react
+
+[33mcommit 6fb6d0f2920f8a40266a0d0b1b419969b187465c[m
+Author: Damian <damianmartinezrx@gmail.com>
+Date:   Thu Jun 12 14:25:34 2025 -0300
+
+    Botones de linkedin y github funcionando y actualizados a la paginas
+
+[33mcommit 7c950532cdaf397a80af8f16eeb21e936a21b8c8[m
+Author: Damian <damianmartinezrx@gmail.com>
+Date:   Tue Jun 10 12:50:17 2025 -0300
+
+    modificacion de boton nav CV para pestaña nueva
+
+[33mcommit 75327b415440a5e2909845a5f2c7dc1614650f0c[m
+Author: Damian <damianmartinezrx@gmail.com>
+Date:   Tue Jun 10 10:49:30 2025 -0300
+
+    modificacion numero de whassat, boton del mismo no funciona
+
+[33mcommit f79978194142d8ef7f8c0bc8a15a81f91ab8c18b[m
+Author: Damian <damianmartinezrx@gmail.com>
+Date:   Mon Jun 9 15:48:36 2025 -0300
+
+    Agregado archivo _redirects para redirección de rutas SPA
+
+[33mcommit 61c1c8397d7ba924b0300c966ca0871700561bc0[m
+Author: Damian <damianmartinezrx@gmail.com>
+Date:   Mon Jun 9 15:19:20 2025 -0300
+
+    nuevo inteto de rail
+
+[33mcommit dfb13583ef465c79d8dd09f504b1ef4b5e539e88[m
+Author: Damian <damianmartinezrx@gmail.com>
+Date:   Mon Jun 9 14:58:48 2025 -0300
+
+    pagina para usarlo en rail
+
+[33mcommit 5644ca9da7e94778f29613b35a5e6928910855b3[m
+Author: Damian <damianmartinezrx@gmail.com>
+Date:   Mon Jun 9 11:47:10 2025 -0300
+
+    Subiendo proyecto React
+
+[33mcommit 5595aa11b3c4b340bb3324665ae442dcbe1b27b7[m
+Author: Damian <damianmartinezrx@gmail.com>
+Date:   Mon Jun 9 11:44:01 2025 -0300
+
+    first commit
