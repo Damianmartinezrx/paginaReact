@@ -5,6 +5,7 @@ interface NavItem {
   icon: JSX.Element;
   label: string;
   target?: string;
+  onClick?: () => void;
 }
 
 const navItems: NavItem[] = [
